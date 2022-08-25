@@ -1,6 +1,7 @@
 package net.coffeeovertime.firstmod;
 
 import com.mojang.logging.LogUtils;
+import net.coffeeovertime.firstmod.block.ModBlocks;
 import net.coffeeovertime.firstmod.item.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -22,6 +23,7 @@ public class FirstMod
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
