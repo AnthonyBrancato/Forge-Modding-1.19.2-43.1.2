@@ -6,5 +6,7 @@
 
   "block.firstmod.zircon_block": "Block of Zircon",
   "block.firstmod.zircon_ore": "Zircon Ore",
-  "block.firstmod.deepslate_zircon_ore": "Deepslate Zircon Ore"
+  "block.firstmod.deepslate_zircon_ore": "Deepslate Zircon Ore",
+  "block.firstmod.netherrack_zircon_ore": "Netherrack Zircon Ore",
+  "block.firstmod.endstone_zircon_ore": "Endstone Zircon Ore"
 }

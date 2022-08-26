@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "firstmod:zircon_block"
+    }
+  ],
+  "result": {
+    "item": "firstmod:zircon",
+    "count": 1
+  }
+}
